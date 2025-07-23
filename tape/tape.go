@@ -140,7 +140,7 @@ func wfRecorder(ctx context.Context, filename string) {
 		ctx,
 		"wf-recorder",
 		"-c",
-		"libx264rgb",
+		"libx264",
 		"-p",
 		"crf=14",
 		"-f",
